@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <!-- <br>
+     <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Blog.html">Blog</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul> -->
+    
+<fieldset>
+    
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required></input><br><br>
+
+        <label for="message">Your Message:</label>
+        <textarea  id="message" name="message" rows="5"></textarea>
+
+        <br><br>
+        <label for="info">Preferred Contact Method:</label>
+        <input type="radio" id="info" name="method" >
+        <label for="e_mailMethod">Email</label>
+        <input type="radio" id="info" name="method" >
+        <label for="phoneMethod">Phone</label>
+        <br>
+        <br>
+        <input type="checkbox"  >
+        <label for="subscribe">I agree to the <a href="./Terms_conditions.html">terms and conditions</a></label>
+        <input type="submit" value="Submit">
+    </form>
+</fieldset>
+
+</body>
+</html>
